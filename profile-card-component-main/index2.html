@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0rem;
+            padding: 0rem;
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height:100vh;
+            background-image:url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+            background-repeat: no-repeat;
+            background-position:right 55vw bottom 50vh, left 55vw top 50vh;
+        }
+
+        h2{
+            text-align: center;
+        }
+        
+        .footer{
+            display: flex;
+        }
+
+        .num p:nth-of-type(1){
+            font-weight:bold;
+            padding: .5rem 1.5rem;
+            text-align: center;
+        }
+        .num p:nth-of-type(2){
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class= container>
+    <div class = wrapper>
+    <img src="images/bg-pattern-card.svg">
+    <div class = content>
+    <img src = "images/image-victor.jpg">
+    <h2>Victor Crest <span>26</span></h2>
+    <p>London</p>
+    <div class = footer>
+    <div class = num>
+        <p>80k</p>
+        <p>Followers</p>
+    </div>
+    <div class = num >
+        <p>803k</p>
+        <p>Likes</p>
+    </div>
+    <div class = num>
+        <p>1.4k</p>
+        <p>Photos</p> 
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
